@@ -1,0 +1,96 @@
+.dobra-1{
+
+
+    height: 80vh;
+    background-color: rgb(221, 221, 221);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dobra-2{
+
+    height: 60vh;
+    background-image: url('../img/pordosol.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cor1{
+    color: rgb(36, 173, 121);
+}
+
+.cor2{
+    color: rgb(161, 161, 161);
+}
+
+.jumbotron{
+    background-color: rgb(221, 221, 221);
+}
+
+main{
+    font-family: sans-serif,Arial, Helvetica;
+}
+
+footer{
+    font-family: sans-serif,Arial, Helvetica;
+}
+
+.bg-dark{
+    background-color: rgb(34, 34, 34);
+}
+
+.fontsize1{
+    font-size: 80px;
+}
+
+.btn-outline-primary{
+    color: #fff;
+    border-color: #fff;
+    border-radius: 0 !important;
+}
+
+.btn-primary{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    border-radius: 0 !important;
+}
+
+
+a{
+    border-radius: 0 !important;
+}
+
+.btn-m{
+
+    width: 10em;
+}
+
+.btn-dark{
+background-color:rgba(36, 173, 120, 0.678); 
+border-radius: 0 !important;
+border-color: rgba(36, 173, 120, 0.678);
+}
+
+.btn-outline-dark{
+color: rgb(36, 173, 121);
+}
+
+.bg-ciano{
+    background-color: rgb(36, 173, 121);
+}
+
+

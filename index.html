@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sitefrancine.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-ciano">
+            <a class="navbar-brand pl-5" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trabalho">Mais sobre meu trabalho</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0 pr-5">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Procurar</button>
+                </form>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="dobra-1 mb-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="cor1 text-center fontsize1">Bem-Vindo!</h1>
+                    <h4 class="cor1">Fique a vontade, me conheça e olhe um pouco do meu trabalho.</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="jumbotron">
+            <section class="container my-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <figure class="text-center">
+                            <img src="img/avatar.png" class="img-fluid rounded-circle" alt="Banda">
+                            <figcaption class="pt-3">Avatar por:<a href="https://picrew.me/image_maker/94097"
+                                    target="_blank"></figcaption>SangledHere</a>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6 pl-5">
+                        <h1 id="sobre">
+                            Sobre mim
+                        </h1>
+                        <br>
+                        <p class="text-dark">Meu nome é Francine de Paula Nogueira Santos, sou estudante de
+                            Analise
+                            e Desenvolvimento de Sistemas na Fatec Guaratinguetá, busco inovar meus conhecimentos na
+                            área de HTML, caso
+                            goste do meu trabalho, não esqueça de entrar em contato comigo via e-mail ;). </p>
+                        <p class="text-dark">
+                            Me encontre também em:
+
+                        <div class="row">
+                            <div class="col-lg-4 text-center pt-5">
+                                <a href="https://github.com/Koemyy" target="_blank"> <button type="button"
+                                        class="btn btn-outline-dark btn-m">GitHub</button></a>
+                            </div>
+
+                            <div class="col-lg-4 text-center pt-5">
+                                <a href="https://codepen.io/Koemy" target="_blank"><button type="button"
+                                        class="btn btn-outline-dark btn-m">Codepen</button></a>
+                            </div>
+
+                            <div class="col-lg-4 text-center pt-5">
+                                <a href="https://replit.com/@Koemy" target="_blank"><button type="button"
+                                        class="btn btn-outline-dark btn-m">Replit</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+        <section class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="text-center pb-5" id="trabalho">Conheça mais do meu trabalho</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card" class="img-fluid">
+                            <img src="img/siteroupas.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Site 02</h5>
+                                <p class="card-text">Exemplo de site direcionado para comércio de roupas.</p>
+                                <a href="siteexemplo/site3.html" target="_blank"><a href="siteexemplo/site3.html" target="_blank" class="btn btn-dark btn-m">Vá pra o site</a></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card" class="img-fluid">
+                            <img src="img/loja.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Site 03</h5>
+                                <p class="card-text">Exemplo de site direcionado para comércio de alimentos.</p>
+                                <a href="siteexemplo/site2.html" target="_blank"><a href="siteexemplo/site2.html"
+                                        class="btn btn-dark btn-m">Vá pra o site</a></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-ciano mt-3">
+            <div class="p-3">
+                <p class="text-right text-white" id="contato">E-mail para contato: Francine.pns@gmail.com</p>
+                <p class="text-white text-right">Francine de Paula Nogueira Santos &copy; Todos os direitos reservados.
+                </p>
+            </div>
+        </footer>
+
+
+        <script src="../js/jquery-3.5.1.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

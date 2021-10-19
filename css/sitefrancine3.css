@@ -1,0 +1,32 @@
+.dobra-1{
+
+
+    height: 80vh;
+    background-image: url('../img/lojaroupabg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.color1{
+
+    color: rgb(255, 255, 255);
+
+}
+main, header,footer{
+    font-family: 'Times New Roman', Times, serif;
+}
+.bgcolor{
+    background-color: rgb(58, 58, 58);
+}
+
+.textcolor{
+
+    color: rgb(211, 210, 210);
+}
